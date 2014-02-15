@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GenerateRti</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string-array name="dropdown">
+        <item>Status of withdrawal of my Employees Provident Fund (EPF) Account</item>
+        <item>Status of pending work in any government department on my complaint</item>
+         <item>Enquiry on MLA Constituency Development Funds</item>
+        <item>Complete list of all streets and road works carried out</item>
+       
+        <item>Status of all complaints from central vigilance commission</item>
+        <item>Details of Ration Card</item>
+        
+    </string-array>
+
+</resources>
