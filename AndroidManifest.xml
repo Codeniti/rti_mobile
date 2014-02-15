@@ -7,8 +7,10 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
+        android:name=".YourApp"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -28,6 +30,33 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.SpinnerList" />
+                <category android:name="android.intent.category.Default" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.generaterti.FromTo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.FromTo" />
+                <category android:name="android.intent.category.Default" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.generaterti.DynamicPDFHelloWorld"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DynamicPDFHelloWorld" />
+                <category android:name="android.intent.category.Default" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.generaterti.EmailActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EmailActivity" />
                 <category android:name="android.intent.category.Default" />
             </intent-filter>
         </activity>
